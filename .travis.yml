@@ -8,11 +8,12 @@ jobs:
     - os: windows
       compiler: clang
     - os: osx
+      env: ELECTRON_BUILDER_ALLOW_UNRESOLVED_DEPENDENCIES=true YARN_GPG=no CC=gcc-4.9 CXX=gcc-4.9++ npm_config_clang=1
       osx_image: xcode12.2
       before_install: 
           - brew install git-lfs
           - brew install openssl
-          - brew install libgit2
+          - brew install gcc49
     - os: linux
       before_install: sudo apt-get install --no-install-recommends -y icnsutils graphicsmagick xz-utils
       env: ELECTRON_BUILDER_ALLOW_UNRESOLVED_DEPENDENCIES=true YARN_GPG=no
@@ -26,7 +27,7 @@ cache:
     - "$HOME/.cache"
 install:
   - npm install -g xvfb-maybe
-  - yarn install
+  - yarn
 script:
   - yarn electron:build
 branches:
