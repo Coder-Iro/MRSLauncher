@@ -8,7 +8,7 @@ jobs:
     - os: windows
       compiler: clang
     - os: osx
-      env: ELECTRON_BUILDER_ALLOW_UNRESOLVED_DEPENDENCIES=true YARN_GPG=no CC=gcc-4.9 CXX=gcc-4.9++ npm_config_clang=1
+      env: ELECTRON_BUILDER_ALLOW_UNRESOLVED_DEPENDENCIES=true YARN_GPG=no CC=gcc-4.9 CXX=g++-4.9 npm_config_clang=1
       osx_image: xcode12.2
       before_install: 
           - brew install git-lfs
