@@ -12,6 +12,7 @@ jobs:
       before_install: 
           - brew install git-lfs
           - brew install openssl
+          - brew install libgit2
     - os: linux
       before_install: sudo apt-get install --no-install-recommends -y icnsutils graphicsmagick xz-utils
       env: ELECTRON_BUILDER_ALLOW_UNRESOLVED_DEPENDENCIES=true YARN_GPG=no
