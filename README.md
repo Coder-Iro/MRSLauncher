@@ -1,5 +1,5 @@
-# MRSLauncher [![Build Status](https://www.travis-ci.com/Coder-Iro/MRSLauncher.svg?branch=main)](https://www.travis-ci.com/Coder-Iro/MRSLauncher)
-
+# MRSLauncher
+![Travis (.com)](https://img.shields.io/travis/com/Coder-Iro/MRSLauncher?logo=travis&style=flat-square)
 
 ## Project setup
 ```
