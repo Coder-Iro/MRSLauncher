@@ -1,5 +1,5 @@
 # MRSLauncher
-![Travis (.com)](https://img.shields.io/travis/com/Coder-Iro/MRSLauncher?logo=travis&style=flat-square)
+![Travis (.com)](https://img.shields.io/travis/com/Coder-Iro/MRSLauncher?logo=travis&style=for-the-badge)
 
 ## Project setup
 ```
