@@ -1,4 +1,5 @@
-# mrs-final-launcher
+# MRSLauncher [![Build Status](https://www.travis-ci.com/Coder-Iro/MRSLauncher.svg?branch=main)](https://www.travis-ci.com/Coder-Iro/MRSLauncher)
+
 
 ## Project setup
 ```
@@ -7,12 +8,12 @@ yarn install
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+yarn electron:serve
 ```
 
 ### Compiles and minifies for production
 ```
-yarn build
+yarn electron:build
 ```
 
 ### Lints and fixes files
