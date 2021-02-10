@@ -19,13 +19,17 @@
     "@xmcl/server-info": "^2.0.3",
     "@xmcl/user": "^2.1.5",
     "core-js": "^3.6.5",
+    "electron-updater": "^4.3.5",
+    "github-syntax-dark": "^0.5.0",
     "nodegit": "^0.27.0",
+    "semver": "^7.3.4",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {
     "@types/electron-devtools-installer": "^2.2.0",
+    "@types/nodegit": "^0.26.12",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "@vue/cli-plugin-babel": "~4.5.0",
